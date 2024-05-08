@@ -1,0 +1,25 @@
+{
+  "name": "tistory",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "torytis build",
+    "build:variable": "torytis varbuild",
+    "dev": "torytis dev",
+    "tsc": "tsc",
+    "tailwindcss": "tailwindcss",
+    "torytis": "torytis"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@wisdomstar94/torytis": "^1.2.0",
+    "esbuild": "^0",
+    "esbuild-sass-plugin": "^2",
+    "postcss-modules": "^6",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwindcss": "^3",
+    "typescript": "^5"
+  }
+}
