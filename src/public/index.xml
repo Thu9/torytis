@@ -110,8 +110,6 @@
     -->
   </variables>
   <cover>
-    <!-- example -->
-    <!-- 
     <item>
       <name>list</name>
       <label><![CDATA[리스트]]></label>
@@ -122,6 +120,5 @@
       <label><![CDATA[리스트(절반크기)]]></label>
       <description><![CDATA[글 리스트를 표시합니다.]]></description>
     </item> 
-    -->
   </cover>
 </skin>

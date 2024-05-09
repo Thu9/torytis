@@ -2,6 +2,7 @@ import React from "react";
 import "./index.scss";
 import HeaderBar from "./components/layout/headerBar.component";
 import ContentContainer from "./components/layout/contentContainer.component";
+import SideBar from "./components/layout/sideBar.component";
 
 export default function App() {
   return (
@@ -17,8 +18,27 @@ export default function App() {
       <body>
         <s_t3>
           <HeaderBar />
+          <SideBar />
           <div className="pt-[48px]">
-            <ContentContainer>contensts!!</ContentContainer>
+            <ContentContainer>
+              <s_cover_group>
+                <s_cover_rep>
+                  <s_cover>
+                    [##_cover_title_##]
+                    <s_cover_url>[##_cover_url_##]</s_cover_url>
+                  </s_cover>
+                </s_cover_rep>
+              </s_cover_group>
+
+              <s_article_rep>
+                {/* index item */}
+
+                <s_index_article_rep>
+                  <img src="[##_article_rep_thumbnail_url_##]" />
+                  [##_article_rep_title_##]asd
+                </s_index_article_rep>
+              </s_article_rep>
+            </ContentContainer>
           </div>
         </s_t3>
       </body>
